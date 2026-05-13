@@ -1,6 +1,6 @@
-﻿using ProyectoSistemaElectoralEstudiantil.Form1;
-using System;
+﻿using System;
 using System.Windows.Forms;
+using ProyectoSistemaElectoralEstudiantil;
 
 namespace ProyectoSistemaElectoralEstudiantil
 {
@@ -14,7 +14,7 @@ namespace ProyectoSistemaElectoralEstudiantil
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmLogin());
+            Application.Run(new ProyectoSistemaElectoralEstudiantil.FormLogin2.FormLogin2());
         }
     }
 }
