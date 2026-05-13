@@ -11,7 +11,7 @@ namespace AccesoDatos
     public class ConnectionClass
     {
 
-        string cadenaConexion = "Server=DESKTOP-GBDI4S5\\SQLEXPRESS;Database=ProyectoSistemaEletoralEstudiantil\r\n;Trusted_Connection=True;";
+        string cadenaConexion = "Server=ACER\\SQLEXPRESS;Database=BDVotaciones\r\n;Trusted_Connection=True;";
 
         public SqlConnection ObtenerConexion()
         { 

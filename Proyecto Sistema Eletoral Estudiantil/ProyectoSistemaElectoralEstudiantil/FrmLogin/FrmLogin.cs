@@ -16,5 +16,10 @@ namespace ProyectoSistemaElectoralEstudiantil.Form1
         {
             InitializeComponent();
         }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
