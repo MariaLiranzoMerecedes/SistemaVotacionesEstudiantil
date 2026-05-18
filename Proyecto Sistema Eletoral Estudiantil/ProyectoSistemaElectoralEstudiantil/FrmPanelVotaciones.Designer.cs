@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.btnVolver = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.dgvResultados = new System.Windows.Forms.DataGridView();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -50,6 +52,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.chartResultados = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -58,6 +62,7 @@
             this.panel5.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartResultados)).BeginInit();
             this.SuspendLayout();
             // 
             // btnVolver
@@ -65,7 +70,7 @@
             this.btnVolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(175)))), ((int)(((byte)(158)))));
             this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolver.ForeColor = System.Drawing.Color.MintCream;
-            this.btnVolver.Location = new System.Drawing.Point(501, 739);
+            this.btnVolver.Location = new System.Drawing.Point(902, 739);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(160, 48);
             this.btnVolver.TabIndex = 19;
@@ -78,7 +83,7 @@
             this.btnActualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(175)))), ((int)(((byte)(158)))));
             this.btnActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnActualizar.ForeColor = System.Drawing.Color.MintCream;
-            this.btnActualizar.Location = new System.Drawing.Point(217, 739);
+            this.btnActualizar.Location = new System.Drawing.Point(659, 739);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(160, 48);
             this.btnActualizar.TabIndex = 18;
@@ -90,11 +95,11 @@
             // 
             this.dgvResultados.BackgroundColor = System.Drawing.Color.MediumAquamarine;
             this.dgvResultados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvResultados.Location = new System.Drawing.Point(122, 489);
+            this.dgvResultados.Location = new System.Drawing.Point(608, 104);
             this.dgvResultados.Name = "dgvResultados";
             this.dgvResultados.RowHeadersWidth = 51;
             this.dgvResultados.RowTemplate.Height = 24;
-            this.dgvResultados.Size = new System.Drawing.Size(665, 232);
+            this.dgvResultados.Size = new System.Drawing.Size(686, 568);
             this.dgvResultados.TabIndex = 17;
             // 
             // panel7
@@ -103,34 +108,26 @@
             this.panel7.Controls.Add(this.label7);
             this.panel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel7.ForeColor = System.Drawing.Color.Teal;
-            this.panel7.Location = new System.Drawing.Point(305, 416);
+            this.panel7.Location = new System.Drawing.Point(830, 25);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(284, 53);
             this.panel7.TabIndex = 16;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(68, 18);
+            this.label7.Location = new System.Drawing.Point(71, 18);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(133, 20);
             this.label7.TabIndex = 6;
             this.label7.Text = "RESULTADOS";
             // 
-            // progressBar1
-            // 
-            this.progressBar1.BackColor = System.Drawing.Color.MintCream;
-            this.progressBar1.ForeColor = System.Drawing.Color.MediumTurquoise;
-            this.progressBar1.Location = new System.Drawing.Point(203, 342);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(485, 53);
-            this.progressBar1.TabIndex = 15;
-            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Honeydew;
             this.panel6.Controls.Add(this.label6);
-            this.panel6.Location = new System.Drawing.Point(305, 258);
+            this.panel6.Location = new System.Drawing.Point(105, 372);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(284, 67);
             this.panel6.TabIndex = 14;
@@ -140,7 +137,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Teal;
-            this.label6.Location = new System.Drawing.Point(36, 24);
+            this.label6.Location = new System.Drawing.Point(27, 25);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(216, 18);
             this.label6.TabIndex = 4;
@@ -151,7 +148,7 @@
             this.panel3.BackColor = System.Drawing.Color.Honeydew;
             this.panel3.Controls.Add(this.lblParticipacion);
             this.panel3.Controls.Add(this.label3);
-            this.panel3.Location = new System.Drawing.Point(305, 114);
+            this.panel3.Location = new System.Drawing.Point(188, 104);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(147, 101);
             this.panel3.TabIndex = 11;
@@ -183,16 +180,16 @@
             this.panel4.BackColor = System.Drawing.Color.Honeydew;
             this.panel4.Controls.Add(this.lblNulos);
             this.panel4.Controls.Add(this.label4);
-            this.panel4.Location = new System.Drawing.Point(485, 114);
+            this.panel4.Location = new System.Drawing.Point(148, 233);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(140, 101);
+            this.panel4.Size = new System.Drawing.Size(205, 63);
             this.panel4.TabIndex = 12;
             // 
             // lblNulos
             // 
             this.lblNulos.AutoSize = true;
             this.lblNulos.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lblNulos.Location = new System.Drawing.Point(43, 61);
+            this.lblNulos.Location = new System.Drawing.Point(67, 34);
             this.lblNulos.Name = "lblNulos";
             this.lblNulos.Size = new System.Drawing.Size(51, 16);
             this.lblNulos.TabIndex = 6;
@@ -203,7 +200,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(13, 18);
+            this.label4.Location = new System.Drawing.Point(43, 9);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(114, 16);
             this.label4.TabIndex = 3;
@@ -214,7 +211,7 @@
             this.panel5.BackColor = System.Drawing.Color.Honeydew;
             this.panel5.Controls.Add(this.lblSinVotar);
             this.panel5.Controls.Add(this.label5);
-            this.panel5.Location = new System.Drawing.Point(672, 114);
+            this.panel5.Location = new System.Drawing.Point(370, 104);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(115, 101);
             this.panel5.TabIndex = 13;
@@ -245,7 +242,7 @@
             this.panel2.BackColor = System.Drawing.Color.Honeydew;
             this.panel2.Controls.Add(this.lblTotal);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(110, 114);
+            this.panel2.Location = new System.Drawing.Point(14, 104);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(148, 101);
             this.panel2.TabIndex = 10;
@@ -275,7 +272,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Honeydew;
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(305, 35);
+            this.panel1.Location = new System.Drawing.Point(105, 25);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(284, 56);
             this.panel1.TabIndex = 9;
@@ -291,6 +288,30 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "PANEL DE VOTACIONES";
             // 
+            // chartResultados
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chartResultados.ChartAreas.Add(chartArea1);
+            this.chartResultados.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            legend1.Name = "Legend1";
+            this.chartResultados.Legends.Add(legend1);
+            this.chartResultados.Location = new System.Drawing.Point(14, 455);
+            this.chartResultados.Name = "chartResultados";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartResultados.Series.Add(series1);
+            this.chartResultados.Size = new System.Drawing.Size(471, 319);
+            this.chartResultados.TabIndex = 20;
+            this.chartResultados.Click += new System.EventHandler(this.chart1_Click);
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(14, 314);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(471, 52);
+            this.progressBar1.TabIndex = 21;
+            // 
             // FrmPanelVotaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -298,12 +319,13 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.BackgroundImage = global::ProyectoSistemaElectoralEstudiantil.Properties.Resources.fondo2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(897, 812);
+            this.ClientSize = new System.Drawing.Size(1317, 812);
+            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.chartResultados);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.dgvResultados);
             this.Controls.Add(this.panel7);
-            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel4);
@@ -328,6 +350,7 @@
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartResultados)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -339,7 +362,6 @@
         private System.Windows.Forms.DataGridView dgvResultados;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel3;
@@ -356,5 +378,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartResultados;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }

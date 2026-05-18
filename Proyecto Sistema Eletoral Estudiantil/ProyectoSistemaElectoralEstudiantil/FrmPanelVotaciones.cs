@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidades;
 using LogicaNegocio;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace ProyectoSistemaElectoralEstudiantil
 {
@@ -95,5 +96,53 @@ namespace ProyectoSistemaElectoralEstudiantil
         {
             this.Close();
         }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void chart1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CargarGrafica(Estadisticas est)
+        {
+            // Limpiar gráfica anterior
+            chartResultados.Series.Clear();
+            chartResultados.Titles.Clear();
+
+            // Título
+            chartResultados.Titles.Add("Resultados por Plancha");
+            chartResultados.Titles[0].Font = new Font("Segoe UI", 12, FontStyle.Bold);
+
+            // Crear la serie
+            Series serie = new Series("Votos");
+            serie.ChartType = SeriesChartType.Pie;  // tipo PASTEL
+            serie.IsValueShownAsLabel = true;       // muestra valores en cada parte
+
+            // Agregar cada plancha como un punto en la gráfica
+            foreach (ResultadoPartido r in est.Resultados)
+            {
+                if (r.TotalVotos > 0)  // solo planchas con votos
+                {
+                    int idx = serie.Points.AddXY(r.Nombre, r.TotalVotos);
+                    serie.Points[idx].Label = r.Nombre + ": " + r.TotalVotos + " ("
+                                               + Math.Round(r.Porcentaje, 1) + "%)";
+                    serie.Points[idx].LegendText = r.Nombre;
+                }
+            }
+
+            chartResultados.Series.Add(serie);
+
+            // Mostrar leyenda
+            chartResultados.Legends.Clear();
+            Legend legend = new Legend("Planchas");
+            legend.Docking = Docking.Bottom;
+            chartResultados.Legends.Add(legend);
+        }
+
+
     }
 }
