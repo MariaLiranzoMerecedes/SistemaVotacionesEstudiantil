@@ -4,3 +4,9 @@ C:\Users\Admin\Desktop\P3 Resolution\Proyecto Sistema Eletoral Estudiantil\Entid
 C:\Users\Admin\Desktop\P3 Resolution\Proyecto Sistema Eletoral Estudiantil\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\P3 Resolution\Proyecto Sistema Eletoral Estudiantil\Entidades\obj\Debug\Entidades.dll
 C:\Users\Admin\Desktop\P3 Resolution\Proyecto Sistema Eletoral Estudiantil\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Admin\Desktop\Votaciones\Proyecto Sistema Eletoral Estudiantil\Entidades\bin\Debug\Entidades.dll
+C:\Users\Admin\Desktop\Votaciones\Proyecto Sistema Eletoral Estudiantil\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Admin\Desktop\Votaciones\Proyecto Sistema Eletoral Estudiantil\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Votaciones\Proyecto Sistema Eletoral Estudiantil\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Votaciones\Proyecto Sistema Eletoral Estudiantil\Entidades\obj\Debug\Entidades.dll
+C:\Users\Admin\Desktop\Votaciones\Proyecto Sistema Eletoral Estudiantil\Entidades\obj\Debug\Entidades.pdb
