@@ -65,6 +65,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="FrmDatosGenerales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,10 +73,19 @@
       <DependentUpon>FrmDatosGenerales.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmLogin\FrmLogin.cs">
+=======
+    <Compile Include="FrmLogin\FormLogin2.cs">
+>>>>>>> c1a495ac4a4f3894054a5a5df451fd58fa132b23
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmLogin\FrmLogin.Designer.cs">
-      <DependentUpon>FrmLogin.cs</DependentUpon>
+    <Compile Include="FrmLogin\FormLogin2.Designer.cs">
+      <DependentUpon>FormLogin2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin\FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin\FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmPanelVotaciones.cs">
       <SubType>Form</SubType>
@@ -97,6 +107,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="FrmDatosGenerales.resx">
       <DependentUpon>FrmDatosGenerales.cs</DependentUpon>
@@ -112,6 +123,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUsuarios.resx">
       <DependentUpon>FrmUsuarios.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="FrmLogin\FormLogin2.resx">
+      <DependentUpon>FormLogin2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin\FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+>>>>>>> c1a495ac4a4f3894054a5a5df451fd58fa132b23
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -152,6 +170,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Resources\fondo1.jpeg" />
     <None Include="Resources\fondo2.jpeg" />
     <None Include="Resources\Fondo3.jpeg" />
@@ -173,5 +192,21 @@
     </Content>
   </ItemGroup>
   <ItemGroup />
+=======
+    <None Include="Resources\Human Rights Europe GIF by European Commission - Find &amp; Share on GIPHY.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %286%29.jpg" />
+  </ItemGroup>
+>>>>>>> c1a495ac4a4f3894054a5a5df451fd58fa132b23
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProyectoSistemaElectoralEstudiantil.Form1
+namespace ProyectoSistemaElectoralEstudiantil.FrmLogin
 {
-    public partial class FrmLogin : Form
+    public partial class FormMenu : Form
     {
-        public FrmLogin()
+        public FormMenu()
         {
             InitializeComponent();
         }
