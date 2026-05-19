@@ -63,9 +63,15 @@ namespace ProyectoSistemaElectoralEstudiantil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+        internal static System.Drawing.Bitmap fondo1 {
+            get {
+                object obj = ResourceManager.GetObject("fondo1", resourceCulture);
+=======
         internal static System.Drawing.Bitmap backo {
             get {
                 object obj = ResourceManager.GetObject("backo", resourceCulture);
+>>>>>>> c1a495ac4a4f3894054a5a5df451fd58fa132b23
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +79,15 @@ namespace ProyectoSistemaElectoralEstudiantil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+        internal static System.Drawing.Bitmap fondo2 {
+            get {
+                object obj = ResourceManager.GetObject("fondo2", resourceCulture);
+=======
         internal static System.Drawing.Bitmap download__3_ {
             get {
                 object obj = ResourceManager.GetObject("download (3)", resourceCulture);
+>>>>>>> c1a495ac4a4f3894054a5a5df451fd58fa132b23
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +95,15 @@ namespace ProyectoSistemaElectoralEstudiantil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+        internal static System.Drawing.Bitmap Fondo3 {
+            get {
+                object obj = ResourceManager.GetObject("Fondo3", resourceCulture);
+=======
         internal static System.Drawing.Bitmap download__5_ {
             get {
                 object obj = ResourceManager.GetObject("download (5)", resourceCulture);
+>>>>>>> c1a495ac4a4f3894054a5a5df451fd58fa132b23
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +111,15 @@ namespace ProyectoSistemaElectoralEstudiantil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+        internal static System.Drawing.Bitmap fondo4 {
+            get {
+                object obj = ResourceManager.GetObject("fondo4", resourceCulture);
+=======
         internal static System.Drawing.Bitmap download__6_ {
             get {
                 object obj = ResourceManager.GetObject("download (6)", resourceCulture);
+>>>>>>> c1a495ac4a4f3894054a5a5df451fd58fa132b23
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +127,25 @@ namespace ProyectoSistemaElectoralEstudiantil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+        internal static System.Drawing.Bitmap fondo5 {
+            get {
+                object obj = ResourceManager.GetObject("fondo5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fondo6 {
+            get {
+                object obj = ResourceManager.GetObject("fondo6", resourceCulture);
+=======
         internal static System.Drawing.Bitmap Human_Rights_Europe_GIF_by_European_Commission___Find___Share_on_GIPHY {
             get {
                 object obj = ResourceManager.GetObject("Human Rights Europe GIF by European Commission - Find & Share on GIPHY", resourceCulture);
+>>>>>>> c1a495ac4a4f3894054a5a5df451fd58fa132b23
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
