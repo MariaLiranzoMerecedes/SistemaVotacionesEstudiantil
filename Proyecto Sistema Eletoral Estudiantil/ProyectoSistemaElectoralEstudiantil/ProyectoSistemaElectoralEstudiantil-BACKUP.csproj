@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}</ProjectGuid>
+    <ProjectGuid>{DF50EB69-A044-40AC-975E-D1A9C441FDD8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ProyectoSistemaElectoralEstudiantil</RootNamespace>
     <AssemblyName>ProyectoSistemaElectoralEstudiantil</AssemblyName>
@@ -12,7 +12,6 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,19 +33,39 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml" />
-    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="FrmDatosGenerales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,12 +73,9 @@
       <DependentUpon>FrmDatosGenerales.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmLogin\FrmLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmLogin\FrmLogin.Designer.cs">
-      <DependentUpon>FrmLogin.cs</DependentUpon>
-    </Compile>
+=======
     <Compile Include="FrmLogin\FormLogin2.cs">
+>>>>>>> c1a495ac4a4f3894054a5a5df451fd58fa132b23
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmLogin\FormLogin2.Designer.cs">
@@ -91,28 +107,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
     <EmbeddedResource Include="FrmDatosGenerales.resx">
       <DependentUpon>FrmDatosGenerales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmLogin\FormLogin2.resx">
-      <DependentUpon>FormLogin2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmLogin\FormMenu.resx">
-      <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPanelVotaciones.resx">
       <DependentUpon>FrmPanelVotaciones.cs</DependentUpon>
@@ -122,36 +123,54 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUsuarios.resx">
       <DependentUpon>FrmUsuarios.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="FrmLogin\FormLogin2.resx">
+      <DependentUpon>FormLogin2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin\FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+>>>>>>> c1a495ac4a4f3894054a5a5df451fd58fa132b23
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AccesoDatos\AccesoDatos.csproj">
-      <Project>{B1C2D3E4-F5A6-7890-BCDE-F12345678901}</Project>
+      <Project>{ca1e996d-1654-4255-ba42-a65fe849b846}</Project>
       <Name>AccesoDatos</Name>
     </ProjectReference>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{C1D2E3F4-A5B6-7890-CDEF-123456789012}</Project>
+      <Project>{8f331680-5bb7-4b11-915f-cf9b5d0b4c55}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
     <ProjectReference Include="..\LogicaNegocio\LogicaNegocio.csproj">
-      <Project>{D1E2F3A4-B5C6-7890-DEF1-234567890123}</Project>
+      <Project>{7cc0d285-c361-41f2-9463-5eed88caa32b}</Project>
       <Name>LogicaNegocio</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Resources\fondo1.jpeg" />
     <None Include="Resources\fondo2.jpeg" />
     <None Include="Resources\Fondo3.jpeg" />
@@ -172,5 +191,22 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
+=======
+    <None Include="Resources\Human Rights Europe GIF by European Commission - Find &amp; Share on GIPHY.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %286%29.jpg" />
+  </ItemGroup>
+>>>>>>> c1a495ac4a4f3894054a5a5df451fd58fa132b23
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
