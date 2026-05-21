@@ -231,7 +231,7 @@
             this.btnIngresar.ForeColor = System.Drawing.Color.Ivory;
             this.btnIngresar.Location = new System.Drawing.Point(214, 299);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(88, 35);
+            this.btnIngresar.Size = new System.Drawing.Size(99, 35);
             this.btnIngresar.TabIndex = 22;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = false;
@@ -241,9 +241,9 @@
             this.button1.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.button1.Font = new System.Drawing.Font("Georgia", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Ivory;
-            this.button1.Location = new System.Drawing.Point(225, 508);
+            this.button1.Location = new System.Drawing.Point(214, 508);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 35);
+            this.button1.Size = new System.Drawing.Size(99, 35);
             this.button1.TabIndex = 23;
             this.button1.Text = "Ingresar";
             this.button1.UseVisualStyleBackColor = false;
@@ -255,7 +255,7 @@
             this.button2.ForeColor = System.Drawing.Color.Ivory;
             this.button2.Location = new System.Drawing.Point(418, 299);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 35);
+            this.button2.Size = new System.Drawing.Size(96, 35);
             this.button2.TabIndex = 24;
             this.button2.Text = "Ingresar";
             this.button2.UseVisualStyleBackColor = false;
@@ -265,9 +265,9 @@
             this.button3.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.button3.Font = new System.Drawing.Font("Georgia", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Ivory;
-            this.button3.Location = new System.Drawing.Point(614, 299);
+            this.button3.Location = new System.Drawing.Point(601, 299);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(88, 35);
+            this.button3.Size = new System.Drawing.Size(101, 35);
             this.button3.TabIndex = 25;
             this.button3.Text = "Ingresar";
             this.button3.UseVisualStyleBackColor = false;
@@ -277,9 +277,9 @@
             this.button4.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.button4.Font = new System.Drawing.Font("Georgia", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Ivory;
-            this.button4.Location = new System.Drawing.Point(614, 508);
+            this.button4.Location = new System.Drawing.Point(601, 508);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(88, 35);
+            this.button4.Size = new System.Drawing.Size(101, 35);
             this.button4.TabIndex = 27;
             this.button4.Text = "Ingresar";
             this.button4.UseVisualStyleBackColor = false;
@@ -291,7 +291,7 @@
             this.button5.ForeColor = System.Drawing.Color.Ivory;
             this.button5.Location = new System.Drawing.Point(418, 508);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(88, 35);
+            this.button5.Size = new System.Drawing.Size(96, 35);
             this.button5.TabIndex = 26;
             this.button5.Text = "Ingresar";
             this.button5.UseVisualStyleBackColor = false;
@@ -325,6 +325,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormMenu";
             this.Text = "FormMenu";
+            this.Load += new System.EventHandler(this.FormMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

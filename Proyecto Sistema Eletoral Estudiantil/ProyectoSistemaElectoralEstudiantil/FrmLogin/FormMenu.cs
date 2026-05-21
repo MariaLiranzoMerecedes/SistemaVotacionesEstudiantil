@@ -12,9 +12,16 @@ namespace ProyectoSistemaElectoralEstudiantil.FrmLogin
 {
     public partial class FormMenu : Form
     {
+        
         public FormMenu()
         {
             InitializeComponent();
+        }
+
+        
+        private void FormMenu_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
