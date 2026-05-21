@@ -114,5 +114,26 @@
   <ItemGroup>
     <None Include="Resources\download %286%29.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Presenting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Presenting1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Web animation GIF.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\North Carolina Changes Voting Policy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %288%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %289%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

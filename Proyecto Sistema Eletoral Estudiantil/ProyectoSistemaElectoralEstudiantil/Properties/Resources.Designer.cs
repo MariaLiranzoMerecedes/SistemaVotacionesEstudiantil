@@ -103,9 +103,79 @@ namespace ProyectoSistemaElectoralEstudiantil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download__8_ {
+            get {
+                object obj = ResourceManager.GetObject("download (8)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__8_1 {
+            get {
+                object obj = ResourceManager.GetObject("download (8)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__9_ {
+            get {
+                object obj = ResourceManager.GetObject("download (9)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Human_Rights_Europe_GIF_by_European_Commission___Find___Share_on_GIPHY {
             get {
                 object obj = ResourceManager.GetObject("Human Rights Europe GIF by European Commission - Find & Share on GIPHY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap North_Carolina_Changes_Voting_Policy {
+            get {
+                object obj = ResourceManager.GetObject("North Carolina Changes Voting Policy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Presenting {
+            get {
+                object obj = ResourceManager.GetObject("Presenting", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Presenting1 {
+            get {
+                object obj = ResourceManager.GetObject("Presenting1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Web_animation_GIF {
+            get {
+                object obj = ResourceManager.GetObject("Web animation GIF", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
