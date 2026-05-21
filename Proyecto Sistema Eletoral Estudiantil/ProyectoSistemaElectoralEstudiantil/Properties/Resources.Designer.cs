@@ -73,6 +73,56 @@ namespace ProyectoSistemaElectoralEstudiantil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Burnout_and_How_to_Recover {
+            get {
+                object obj = ResourceManager.GetObject("Burnout and How to Recover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Burnout_and_How_to_Recover1 {
+            get {
+                object obj = ResourceManager.GetObject("Burnout and How to Recover1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__1_ {
+            get {
+                object obj = ResourceManager.GetObject("download (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__10_ {
+            get {
+                object obj = ResourceManager.GetObject("download (10)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__11_ {
+            get {
+                object obj = ResourceManager.GetObject("download (11)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download__3_ {
             get {
                 object obj = ResourceManager.GetObject("download (3)", resourceCulture);
@@ -143,6 +193,16 @@ namespace ProyectoSistemaElectoralEstudiantil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Nice {
+            get {
+                object obj = ResourceManager.GetObject("Nice", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap North_Carolina_Changes_Voting_Policy {
             get {
                 object obj = ResourceManager.GetObject("North Carolina Changes Voting Policy", resourceCulture);
@@ -166,6 +226,16 @@ namespace ProyectoSistemaElectoralEstudiantil.Properties {
         internal static System.Drawing.Bitmap Presenting1 {
             get {
                 object obj = ResourceManager.GetObject("Presenting1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap United_Nations__1945____Oliver_Lincoln_Lundquist {
+            get {
+                object obj = ResourceManager.GetObject("United Nations (1945) _ Oliver Lincoln Lundquist", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

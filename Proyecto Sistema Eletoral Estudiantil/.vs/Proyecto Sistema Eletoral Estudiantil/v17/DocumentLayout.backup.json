@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Votaciones\\Proyecto Sistema Eletoral Estudiantil\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF50EB69-A044-40AC-975E-D1A9C441FDD8}|ProyectoSistemaElectoralEstudiantil\\ProyectoSistemaElectoralEstudiantil.csproj|c:\\users\\admin\\desktop\\votaciones\\proyecto sistema eletoral estudiantil\\proyectosistemaelectoralestudiantil\\frmlogin\\votacionesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DF50EB69-A044-40AC-975E-D1A9C441FDD8}|ProyectoSistemaElectoralEstudiantil\\ProyectoSistemaElectoralEstudiantil.csproj|solutionrelative:proyectosistemaelectoralestudiantil\\frmlogin\\votacionesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF50EB69-A044-40AC-975E-D1A9C441FDD8}|ProyectoSistemaElectoralEstudiantil\\ProyectoSistemaElectoralEstudiantil.csproj|c:\\users\\admin\\desktop\\votaciones\\proyecto sistema eletoral estudiantil\\proyectosistemaelectoralestudiantil\\frmlogin\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DF50EB69-A044-40AC-975E-D1A9C441FDD8}|ProyectoSistemaElectoralEstudiantil\\ProyectoSistemaElectoralEstudiantil.csproj|solutionrelative:proyectosistemaelectoralestudiantil\\frmlogin\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF50EB69-A044-40AC-975E-D1A9C441FDD8}|ProyectoSistemaElectoralEstudiantil\\ProyectoSistemaElectoralEstudiantil.csproj|C:\\Users\\Admin\\Desktop\\Votaciones\\Proyecto Sistema Eletoral Estudiantil\\proyectosistemaelectoralestudiantil\\frmlogin\\formlogin2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DF50EB69-A044-40AC-975E-D1A9C441FDD8}|ProyectoSistemaElectoralEstudiantil\\ProyectoSistemaElectoralEstudiantil.csproj|solutionrelative:proyectosistemaelectoralestudiantil\\frmlogin\\formlogin2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +35,42 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VotacionesForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Votaciones\\Proyecto Sistema Eletoral Estudiantil\\ProyectoSistemaElectoralEstudiantil\\FrmLogin\\VotacionesForm.cs",
+              "RelativeDocumentMoniker": "ProyectoSistemaElectoralEstudiantil\\FrmLogin\\VotacionesForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Votaciones\\Proyecto Sistema Eletoral Estudiantil\\ProyectoSistemaElectoralEstudiantil\\FrmLogin\\VotacionesForm.cs [Design]",
+              "RelativeToolTip": "ProyectoSistemaElectoralEstudiantil\\FrmLogin\\VotacionesForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T02:50:03.758Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Votaciones\\Proyecto Sistema Eletoral Estudiantil\\ProyectoSistemaElectoralEstudiantil\\FrmLogin\\FormMenu.cs",
+              "RelativeDocumentMoniker": "ProyectoSistemaElectoralEstudiantil\\FrmLogin\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Votaciones\\Proyecto Sistema Eletoral Estudiantil\\ProyectoSistemaElectoralEstudiantil\\FrmLogin\\FormMenu.cs [Design]",
+              "RelativeToolTip": "ProyectoSistemaElectoralEstudiantil\\FrmLogin\\FormMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T02:00:16.176Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormLogin2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Votaciones\\Proyecto Sistema Eletoral Estudiantil\\ProyectoSistemaElectoralEstudiantil\\FrmLogin\\FormLogin2.cs",
+              "RelativeDocumentMoniker": "ProyectoSistemaElectoralEstudiantil\\FrmLogin\\FormLogin2.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Votaciones\\Proyecto Sistema Eletoral Estudiantil\\ProyectoSistemaElectoralEstudiantil\\FrmLogin\\FormLogin2.cs [Design]",
+              "RelativeToolTip": "ProyectoSistemaElectoralEstudiantil\\FrmLogin\\FormLogin2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T02:00:12.598Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
