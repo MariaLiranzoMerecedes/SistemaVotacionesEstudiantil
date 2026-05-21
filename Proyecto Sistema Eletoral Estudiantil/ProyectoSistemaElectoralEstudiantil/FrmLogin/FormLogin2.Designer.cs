@@ -96,7 +96,6 @@
             this.txtMatricula.Name = "txtMatricula";
             this.txtMatricula.Size = new System.Drawing.Size(229, 26);
             this.txtMatricula.TabIndex = 4;
-            this.txtMatricula.Text = "Ingrese su matricula";
             this.txtMatricula.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtContraseña
@@ -107,7 +106,6 @@
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(229, 26);
             this.txtContraseña.TabIndex = 5;
-            this.txtContraseña.Text = "Ingrese su contraseña";
             this.txtContraseña.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // btnIngresar

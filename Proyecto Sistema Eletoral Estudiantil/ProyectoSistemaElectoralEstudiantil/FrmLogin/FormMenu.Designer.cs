@@ -235,6 +235,7 @@
             this.btnIngresar.TabIndex = 22;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = false;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
             // button1
             // 
@@ -247,6 +248,7 @@
             this.button1.TabIndex = 23;
             this.button1.Text = "Ingresar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -259,6 +261,7 @@
             this.button2.TabIndex = 24;
             this.button2.Text = "Ingresar";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -271,6 +274,7 @@
             this.button3.TabIndex = 25;
             this.button3.Text = "Ingresar";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -283,6 +287,7 @@
             this.button4.TabIndex = 27;
             this.button4.Text = "Ingresar";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -295,6 +300,7 @@
             this.button5.TabIndex = 26;
             this.button5.Text = "Ingresar";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // FormMenu
             // 
